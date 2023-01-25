@@ -1,0 +1,56 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--Light-gray);
+  height: 100%;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+img {
+  border-radius: 25px;
+  max-width: 100%;
+  height: 50%;
+}
+
+.card {
+  width: 10%;
+  min-width: 350px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: var(--White);
+}
+
+.card-content {
+  max-width: 300px;
+  margin: auto auto;
+}
+
+.card-content > p {
+  color: var(--Light-gray);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
