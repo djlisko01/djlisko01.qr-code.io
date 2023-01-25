@@ -11,7 +11,7 @@
 
 body {
   background-color: var(--Light-gray);
-  height: 100%;
+  height: 100vh;
   text-align: center;
 }
 
@@ -27,19 +27,18 @@ h2 {
 img {
   border-radius: 25px;
   max-width: 100%;
-  height: 50%;
+  height: 60%;
 }
 
 .card {
-  width: 10%;
-  min-width: 350px;
-  padding: 20px;
+  max-width: 350px;
+  padding: 10px;
   border-radius: 25px;
   background-color: var(--White);
 }
 
 .card-content {
-  max-width: 300px;
+  width: 100%;
   margin: auto auto;
 }
 
@@ -51,6 +50,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   height: 100%;
 }
